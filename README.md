@@ -1,4 +1,6 @@
-# Git Basics Notes
+# 2020/10/06: Git Basics Notes
+
+Local and Remote notes for Git
 
 ## Local
 
