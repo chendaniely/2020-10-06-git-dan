@@ -1,5 +1,7 @@
 # 2020-10-06-git-dan
 
+## Local
+
 - `git init`: create git respotiroy in current folder
     - you only do this one per repository
     - do not nest git repositories
