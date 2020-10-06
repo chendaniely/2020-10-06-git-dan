@@ -1,4 +1,4 @@
-# 2020-10-06-git-dan
+# Git Basics Notes
 
 ## Local
 
