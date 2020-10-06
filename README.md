@@ -23,3 +23,5 @@
 
 - `git push origin master`: sends master branch on local computer to remote
 - `git pull origin master`: updates local with remote (master)
+
+- GitHub allows you to edit files online using the pencil (plain text files)
