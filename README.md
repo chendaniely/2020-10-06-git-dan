@@ -6,7 +6,9 @@
 - `git status`: tells you what is going on in your repository
 - `git add <files>`: puts <files> into the staging area (index)
 - `git commit`: commit message for files in staging area
-
+    - `git commit -m "MESSAGE"`: oneline commit message wihtout opening up the text editor
 - `git log`: show you your log history
     - `git log --oneline`: one line version of your history
 
+- `git diff`: will show you the differences
+    - `git diff --staged`: show you differences in the staging area
