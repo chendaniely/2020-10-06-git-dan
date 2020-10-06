@@ -2,6 +2,8 @@
 
 Local and Remote notes for Git
 
+Change from branch
+
 ## Local
 
 - `git init`: create git respotiroy in current folder
