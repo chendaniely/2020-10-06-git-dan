@@ -1,0 +1,156 @@
+$ history
+    1  pwd
+    2  explorer .
+    3  # on a mac
+    4  open .
+    5  # linux
+    6  xdg-open .
+    7  cd 2020-10-06-git-dan/
+    8  git config --global user.name "Daniel Chen"
+    9  git config --global user.email "chendaniely@gmail.com"
+   10  git config --global core.editor "nano -w"
+   11  pwd
+   12  ls
+   13  git init
+   14  ls -a
+   15  nano README.md
+   16  git status
+   17  git add README.md
+   18  git status
+   19  git commit
+   20  git status
+   21  # use nano to open up README.md
+   22  # define git commit, git add, git status
+   23  cat README.md
+   24  nano README.md
+   25  nano README.md
+   26  git status
+   27  git add README.md
+   28  git status
+   29  git commit
+   30  git status
+   31  git log
+   32  git log --oneline
+   33  nano README.md
+   34  git status
+   35  git diff
+   36  git add README.md
+   37  git status
+   38  git diff
+   39  git diff --staged
+   40  git commit -m "defined git log and --oneline"
+   41  git status
+   42  nano README.md
+   43  git status
+   44  git add README.md
+   45  git diff --staged
+   46  git commit -m 'define commit -m and log'
+   47  git status
+   48  git log
+   49  git log --oneline
+   50  git diff 31c3433 README.md
+   51  git log --oneline
+   52  git diff HEAD~1
+   53  git diff HEAD~2
+   54  git log --oneline
+   55  git status
+   56  git log --oneline
+   57  git checkout 31c3433 README.md
+   58  git status
+   59  cat README.md
+   60  git status
+   61  git restore --staged README.md
+   62  git status
+   63  git restore README.md
+   64  git status
+   65  git log --oneline
+   66  git checkout 07aefc5
+   67  git checkout master
+   68  history
+   69  git remote add origin https://github.com/chendaniely/2020-10-06-git-dan.git
+   70  git remote -v
+   71  git push origin master
+   72  nano README.md
+   73  git status
+   74  git add README.md
+   75  git commit -m "exploring history and pushing to remotes"
+   76  git push origin master
+   77  git pull origin master
+   78  cat README.md
+   79  nano README.md
+   80  git status
+   81  git add README.md
+   82  git commit -m "add remote header"
+   83  git status
+   84  git push origin master
+   85  git pull origin master
+   86  cat README.md
+   87  git status
+   88  git push origin master
+   89  nano README.md
+   90  git status
+   91  git add README.md
+   92  git commit -m 'local computer title change'
+   93  git fetch
+   94  git log --oneline
+   95  git diff HEAD~1
+   96  git fetch
+   97  git log --oneline
+   98  git log --oneline --all
+   99  git log --oneline --all --graph
+  100  git push origin master
+  101  git pull origin master
+  102  "alsdjf lkasdjf '
+lidajfl
+
+
+
+
+  103  git status
+  104  nano README.md
+  105  git status
+  106  git commit -m "fix conflicts"
+  107  git status
+  108  git add README.md
+  109  git status
+  110  git commit -m "fixed conflicts"
+  111  git push origin master
+  112  git status
+  113  ls
+  114  git status
+  115  git push origin master
+  116  nano analysis/README.md
+  117  git status
+  118  git add analysis/./
+  119  git status
+  120  git commit -m "analysis folder readme"
+  121  git push origin master
+  122  nano data/.gitkeep
+  123  git status
+  124  git add data/
+  125  git status
+  126  git add commit -m "empty data folder"
+  127  git commit -m "empty data folder"
+  128  git push origin master
+  129  nano data/my_data.csv
+  130  git status
+  131  git status
+  132  nano .gitignore
+  133  git status
+  134  git add .gitignore
+  135  git commit -m "ignore data folder"
+  136  nano data/my_data_keep.csv
+  137  git status
+  138  git add -F data/my_data_keep.csv
+  139  git add -f data/my_data_keep.csv
+  140  git status
+  141  git commit -m "force add this data file"
+  142  git push origin aster
+  143  git push origin master
+  144  git checkout -b my_branch
+  145  nano README.md
+  146  git status
+  147  git add README.md
+  148  git commit -m "change form branch"
+  149  git push origin my_branch
+  150  history
